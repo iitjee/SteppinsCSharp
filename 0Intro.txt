@@ -1,0 +1,47 @@
+/* was originally introduced in 2002 by Microsoft as a part of .NET framework */
+
+- Mostly derived from JAVA, C++
+
+
+Characteristics of C#:
+- Strongly typed language
+- Object Oriented
+- Supports multiple programming paradigms
+
+Besides C#, you can write in Javascript or VisualBasic for .NET
+
+Windows Runtime(WinRT)
+- Introduced with windows 8
+- Native support for x86 and ARM architectures
+- Windows phone currently uses windows phone runtime
+- Supports C#, Visual Basic, C++, Javascript
+
+C# runs in Managed Code Environment:
+- C# is compiled to bytecode ratehr than machine code
+- Executed by CLR(Common Language Runtime) - similar to JVM
+
+
+.NET Stack:
+-- C#, C++, VB, JS, F#
+-- ASP.NET, WPF, WinForm)older), others
+-- Application class Libraries and Services
+-- Base Class Lib
+-- CLR 
+-- OS
+
+Windows 8 Modern Apps: WinRT is used instead of .NET
+(.NET is exposed to winRT)
+
+Native vs. Managed Languages:
+Native languages are compiled to machine code
+Distinct compilers are required for each OS
+eg: C, C++, ObjC
+Managed langs are compiled to an intermediate format which works cross-platform
+eg: C#, Java
+(However, windows Runtime (winRT) is a native environment)
+
+Memory is allocated dynamically at runtime
+Garbage collection for C# and all managed languages
+CLR periodically checks memory heap and looks for unreferenced objects and releases resources.
+(unreferenced => myVar = null)
+However, winRT bojects are managed by reference counting. .NET objects are still subject to garbage collection.
