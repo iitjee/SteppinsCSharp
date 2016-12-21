@@ -23,7 +23,7 @@ C# runs in Managed Code Environment:
 
 .NET Stack:
 -- C#, C++, VB, JS, F#
--- ASP.NET, WPF, WinForm)older), others
+-- ASP.NET, WPF(Windows presentation Foundation), WinForm(older), others
 -- Application class Libraries and Services
 -- Base Class Lib
 -- CLR 
@@ -44,4 +44,4 @@ Memory is allocated dynamically at runtime
 Garbage collection for C# and all managed languages
 CLR periodically checks memory heap and looks for unreferenced objects and releases resources.
 (unreferenced => myVar = null)
-However, winRT bojects are managed by reference counting. .NET objects are still subject to garbage collection.
+However, winRT bojects are managed by reference counting. .NET objects are still subjected to garbage collection.
