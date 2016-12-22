@@ -30,7 +30,13 @@ C# runs in Managed Code Environment:
 -- OS
 
 Windows 8 Modern Apps: WinRT is used instead of .NET
-(.NET is exposed to winRT)
+(.NET is exposed to winRT i.e
+  Here, the compiler maps managed .NET types and methods to native WinRT libraries
+  WinRT classes are expressed in managed code through projection aka language binding
+  i.e There are only minor differences in data types, mostly use same coding styles in both envs`)
+  
+  VisualBasic vs C#
+  VB looks more like English (like 'and' for &&) and has built-in functions. It's NOT case-sensitive.
 
 Native vs. Managed Languages:
 Native languages are compiled to machine code
